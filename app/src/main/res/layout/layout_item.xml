@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="15dp"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/ids"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:textSize="25dp"
+        android:gravity="center"/>
+        <ImageView
+            android:id="@+id/img"
+            android:layout_width="80dp"
+            android:layout_height="80dp"/>
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="100dp"
+            android:layout_height="80dp"
+            android:textSize="25dp"
+            android:gravity="center"/>
+    <TextView
+        android:layout_width="120dp"
+        android:layout_height="80dp"
+        android:gravity="center"
+        android:text="165"/>
+    <TextView
+        android:layout_width="120dp"
+        android:layout_height="80dp"
+        android:gravity="center"
+        android:textColor="#ff34"
+        android:text="430.0%"/>
+</LinearLayout>
